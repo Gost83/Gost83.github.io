@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>간단한 웹 예제</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>JavaScript 동작 확인</h1>
+  <p>아래 버튼을 클릭하면 메시지가 나타납니다.</p>
+  <button onclick="showMessage()">메시지 보기</button>
+
+  <script>
+    function showMessage() {
+      alert('Hello! 버튼을 클릭했어요.');
+    }
+  </script>
+</body>
+</html>
